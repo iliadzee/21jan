@@ -8,7 +8,8 @@ text-decoration: none;
 
 body{
     background-color:#fff;
-    height: 700vh;
+    height: 340vh;
+    overflow-x: hidden;
     
 
 }
@@ -225,19 +226,7 @@ body{
 }
 
 
-@keyframes gf2{
-    0%{width: 0px; height: 0px;}
-    10%{width: 10px; height: 3px;}
-    20%{width: 25px; height: 6px;}
-    30%{width: 36px; height: 9px;}
-    40%{width: 45px; height: 12px;}
-    50%{width: 65px; height: 16px;}
-    60%{width: 90px; height: 20px;}
-    70%{width: 105px; height: 24px;}
-    80%{width: 110px; height: 29px;}
-    90%{width: 118px; height: 32px;}
-    100%{width:120px ; height: 35px;}
-}
+
 
 .ideas{
     text-align: center;
@@ -255,19 +244,6 @@ body{
     animation: idea 0.1s ease-in-out; 
 }
 
-@keyframes idea{
-    0%{width: 0px; height: 0px;}
-    10%{width: 15px; height: 3px;}
-    20%{width: 35px; height: 6px;}
-    30%{width: 56px; height: 9px;}
-    40%{width: 70px; height: 12px;}
-    50%{width: 95px; height: 16px;}
-    60%{width: 120px; height: 20px;}
-    70%{width: 135px; height: 24px;}
-    80%{width: 140px; height: 29px;}
-    90%{width: 158px; height: 32px;}
-    100%{width:180px ; height: 45px;}
-}
 
 
 
@@ -286,20 +262,6 @@ body{
 
 
 
-@keyframes fav{
-    0%{width: 0px; height: 0px;}
-    10%{width: 10px; height: 3px;}
-    20%{width: 25px; height: 6px;}
-    30%{width: 36px; height: 9px;}
-    40%{width: 45px; height: 12px;}
-    50%{width: 65px; height: 16px;}
-    60%{width: 90px; height: 20px;}
-    70%{width: 105px; height: 24px;}
-    80%{width: 110px; height: 29px;}
-    90%{width: 118px; height: 32px;}
-    100%{width:120px ; height: 35px;}
-}
-
 
 .finds:hover{
     text-align: center;
@@ -313,19 +275,7 @@ body{
     animation: find 0.1s ease-in-out;
 }
 
-@keyframes find{
-    0%{width: 0px; height: 0px;}
-    10%{width: 10px; height: 3px;}
-    20%{width: 25px; height: 6px;}
-    30%{width: 36px; height: 9px;}
-    40%{width: 45px; height: 12px;}
-    50%{width: 65px; height: 16px;}
-    60%{width: 90px; height: 20px;}
-    70%{width: 105px; height: 24px;}
-    80%{width: 110px; height: 29px;}
-    90%{width: 118px; height: 32px;}
-    100%{width:120px ; height: 35px;}
-}
+
 
 
 
@@ -342,19 +292,7 @@ body{
 }
 
 
-@keyframes reg{
-    0%{width: 0px; height: 0px;}
-    10%{width: 10px; height: 3px;}
-    20%{width: 25px; height: 6px;}
-    30%{width: 36px; height: 9px;}
-    40%{width: 45px; height: 12px;}
-    50%{width: 65px; height: 16px;}
-    60%{width: 90px; height: 20px;}
-    70%{width: 105px; height: 24px;}
-    80%{width: 120px; height: 29px;}
-    90%{width: 130px; height: 32px;}
-    100%{width:140px ; height: 35px;}
-}
+
 
 
 section.second{
@@ -385,17 +323,18 @@ section.second{
 
 .image1:hover, .image2:hover{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: ease-in-out 0.2s;
 }
 
 
 .title{
-    font-size: 38px;
+    font-size: 34px;
     font-family: "Roboto", serif;
     font-weight:350px;
-    width: 200px;
+    width: 140px;
     text-align: center;
     position: relative;
-    left: 60px;
+    left: 87px;
     top: 55px;
 }
 
@@ -512,10 +451,11 @@ section.third{
 
 .images img:hover{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    transition: ease-in-out 0.2s;
 }
 
 .names{
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Roboto Mono", serif;
     font-weight: 480;
 }
@@ -552,6 +492,7 @@ section.third{
 .down2:hover > :not(:hover){
     filter: blur(2px);
     opacity:0.5px;
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -573,7 +514,6 @@ section.third{
     font-size: 14px;
     font-family: "Roboto Mono", serif;
     font-weight: 570;
-    width: 800px;
     margin-left: 10px;
     
 }
@@ -582,7 +522,6 @@ section.third{
     font-size: 14px;
     font-family: "Roboto Mono", serif;
     font-weight: 570;
-    width: 800px;
     margin-left: 45px;
 }
 
@@ -590,25 +529,22 @@ section.third{
     font-size: 14px;
     font-family: "Roboto Mono", serif;
     font-weight: 570;
-    width: 800px;
     margin-left: 20px;
 }
 
 
 .names5{
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Roboto Mono", serif;
     font-weight: 570;
-    width: 800px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .names6{
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Roboto Mono", serif;
     font-weight: 570;
-    width: 800px;
-    margin-left: 10px;
+    margin-left:20px;
 }
 
 
@@ -630,6 +566,8 @@ section.fourth{
 .sale-up{
     display: flex;
     flex-direction: column;
+    position: relative;
+    right:34px;
 }
 
 .deal{
@@ -655,6 +593,9 @@ section.fourth{
     align-items: center;
     margin-top: 40px;
     gap: 25px;
+    cursor: pointer;
+    position: relative;
+    right: 34px;
 }
 
 .item5{
@@ -669,6 +610,7 @@ section.fourth{
 
 .item5:hover{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: ease-in-out 0.2s ;
 }
 
 .image5 img{
@@ -743,26 +685,32 @@ section.fourth{
 }
 
 section.fifth{
-    height: 70vh;
+    height: 72vh;
 }
 
 .service6{
     display: flex;
-    gap: 260px;
+    cursor: pointer;
+    justify-content: space-around;
+    position: relative;
+    left: 35px;
 
 }
 
 .left6{
     display: flex;
     flex-direction: column;
-    
+    position: relative;
+    right:50px;
+    bottom: 10px;
 }
 
 .pick{
     font-size: 15px;
     font-family: "Roboto", serif;
     font-weight: 300;
-
+    position: relative;
+    top: 59px;
 }
 
 .title6{
@@ -770,16 +718,22 @@ section.fifth{
     font-family: "Roboto", serif;
     font-weight: 500;
     width: 300px;
+    position: relative;
+    top: 70px;
 }
 
 .mintxt{
     width: 300px;
+    font-family: "Roboto", serif;
+    position: relative;
+    top: 100px;
 }
 
 .button6{
     width: 190px;
     height: 47px;
-    border-radius: 20px;background-color: #e9e9e9;
+    border-radius: 30px;
+    background-color: #e9e9e9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -787,30 +741,384 @@ section.fifth{
     font-size: 15px;
     font-weight: 500;
     font-family: "Roboto", serif;
-
+    position: relative;
+    top: 130px;
 }
 
+.button6:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    background-color: #e4e2e2;
+    transition: ease-in-out 0.2s;
+}
 
 
 
 .right{
     display: flex;
-    
+   
 }
 
+.image6{
+    display: flex;
+    position: relative;
+    right: 90px;
+    gap: 25px;
+}
+
+
+.image6 img.ss{
+    width: 299px;
+    height: 310px;
+    position: relative;
+    bottom: 6px;
+}
+
+
 .image6 img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 
 
 .down6{
-    margin-top: 300px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 34px;
 }
 
+
+.image6-2{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    left: 136px;
+}
 
 
 .image6-2 img{
-    width: 100px;
+    width: 300px;
+    border-radius: 10px;
 }
+
+
+section.seventh{
+    margin-top: 90px;
+    height: 65vh;
+    background-color:#fffbd8;
+}
+
+
+.about-etsy{
+    display: flex;
+    flex-direction: column;
+}
+
+.up7{
+    display: flex;
+    flex-direction: column;
+    margin-left: 730px;
+    margin-top: 50px;
+}
+
+.what{
+    font-size: 43px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.story{
+    font-size: 13px;
+    font-family: "Roboto Mono", serif;
+    text-decoration: underline 1px;
+    margin-left:-13px;
+    margin-top: 10px;
+    
+
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 25px;
+
+}
+
+.community{
+    font-size: 30px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+}
+
+.community-1{
+    font-size: 30px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+}
+
+.under-txt{
+    width: 350px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: start;
+    font-family: "Roboto", serif;
+    
+}
+
+.mid-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.under-txt span{
+    text-decoration:dashed underline;
+}
+
+
+.question{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+}
+
+.down7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.button7{
+    width:150px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    font-weight:500;
+    cursor: pointer;
+    position:relative;
+    right: 11px;
+
+}
+
+
+
+.button7:hover{
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    transition:all 0.2s ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}   
+  
+.bottom8{
+    background-color:#ccebff;
+    width:100%;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.send{
+    font-size: 18px;
+    font-weight: 430;
+    font-family: "Roboto", serif;
+    
+}
+
+.sub input{
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1.5px solid lightgray;
+    position: relative;
+    left: 40px
+    
+}
+
+.sub input::placeholder{
+    position: relative;
+    left: 10px;
+    
+}
+
+.sub a{
+    font-size:17px;
+    font-family:"Roboto", serif;
+    position: relative;
+    right:70px;
+}
+
+
+.bottom9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #3b67d9;
+    width:100%;
+    height: 100px;
+}
+
+.world{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.world i{
+    font-size: 25px;
+
+}
+
+.world a{
+    font-size: 20px;
+    font-family:"Roboto", serif;
+    text-decoration: dashed underline ;
+}
+
+section.tenth{
+    display: flex;
+    background-color: #2638c0;
+    height: 320px;
+    
+    
+}
+
+.left10{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 27px;
+    color: white;
+    width:75px;
+    height: 75px;
+    border-radius:12px;
+    background-color: #f1641e;
+    position:relative;
+    left: 260px;
+    top: 125px;
+}
+
+
+.right10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    position: relative;
+    left: 600px;
+    cursor: pointer;
+}
+
+.cards:hover, .reg10:hover, .site:hover, .blog10:hover, .utd:hover, .germ:hover, .canada:hover
+, .on:hover, .tms:hover, .foru:hover, .create:hover, .inc:hover, .pol:hover, .inv:hover, .career:hover, 
+.pre:hover, .imp:hover, .impr:hover, .hlp:hover, .sett:hover{ 
+    text-decoration:  underline;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main10{
+    font-weight: 500;
+    font-size:20px;
+}
+
+.sell{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    bottom: 44px;
+    
+}
+
+.sell-main{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.about-main{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.help{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    position: relative;
+    bottom: 58px;
+}
+
+.help-main{
+    font-family: 20px;
+    font-weight: 500;
+}
+
+.icons10{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+}
+
+
+
+section.eleventh{
+    background-color: #2e2e2e;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.left11{
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+
+.right11{
+    font-family:"Roboto", serif;
+    font-size: 13px;
+    gap: 23px;
+    display: flex;
+}
+
+.right11 a{
+    text-decoration: underline;
+}
+
+
