@@ -940,6 +940,11 @@ section.seventh{
     
 }
 
+.sub{
+    display: flex;
+    align-items: center;
+}
+
 .sub input{
     width: 400px;
     height: 45px;
@@ -961,7 +966,10 @@ section.seventh{
     font-family:"Roboto", serif;
     position: relative;
     right:70px;
+    
 }
+
+
 
 
 .bottom9{
@@ -1115,6 +1123,7 @@ section.eleventh{
     font-size: 13px;
     gap: 23px;
     display: flex;
+    cursor: pointer;
 }
 
 .right11 a{
