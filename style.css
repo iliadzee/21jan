@@ -18,7 +18,9 @@ body{
     width: 100%;
     height: 130px;
     background-color: white;
-    border-bottom: 1.5px solid black;
+    border-bottom: 1px solid black;
+
+    
 }
 
 .top{
@@ -47,7 +49,7 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.category:hover{
+/* .category:hover{
 
     display: flex;
     justify-content: center;
@@ -55,11 +57,12 @@ body{
     width: 140px;
     height: 35px;
     background-color:#e9e9e9;
-    border-radius: 30px;
-    animation: categ 0.1s ease-in-out;
-}
+    border-radius: 35px;
+    /* animation: categ 0.1s ease-in-out; 
+    transition: all 0.2s;
+} */
 
-@keyframes categ{
+/* @keyframes categ{ 
     0%{width: 0px; height: 0px;}
     10%{width: 10px; height: 3px;}
     20%{width: 15px; height: 6px;}
@@ -71,7 +74,7 @@ body{
     80%{width: 125px; height: 29px;}
     90%{width: 132px; height: 32px;}
     100%{width:140px ; height: 35px;}
-}
+}*/
 .category i{
     position: relative;
     right: 10px;
@@ -102,7 +105,7 @@ body{
     
 }
 
-.login:hover{
+/* .login:hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,11 +113,11 @@ body{
     width: 80px;
     height: 30px;
     background-color: #e9e9e9;
-    animation: log 0.1s ease-in-out;
+    transition: all 0.2s;
 
-}
+} */
 
-@keyframes log{
+/* @keyframes log{ 
     0%{width: 0px; height: 0px;}
     10%{width: 30px; height: 1px;}
     20%{width: 40px; height: 3px;}
@@ -127,7 +130,7 @@ body{
     90%{width: 76px; height: 25px;}
     100%{width:80px ; height: 30px;}
 }
-
+*/
 
 .heart i{
     font-size: 28px;
@@ -135,7 +138,7 @@ body{
 }
 
 
-.heart:hover{
+/* .heart:hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,22 +146,22 @@ body{
     width: 50px;
     height: 50px;
     background-color: #ccebff;
-    animation: guli 0.1s ease-in-out;
+    transition:  0.2s all;
     
-}
+} */
 
-@keyframes guli{
+/* @keyframes guli{ 
     0%{width: 0; height: 0;}
     30%{width: 20px; height: 20px;}
     60%{width: 35px; height: 35px;}
     100%{width: 50px; height: 50px;}
-}
+}*/
 
 .gift{
     font-size: 25px;
 }
 
-.gift:hover{
+/* .gift:hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,64 +169,71 @@ body{
     width: 50px;
     height: 50px;
     background-color: #ccebff;
-    animation: gf 0.1s ease-in-out;
-}
+    transition:  0.2s all;
+} */
 
-@keyframes gf{
+/* @keyframes gf{ 
     0%{width: 0; height: 0;}
     30%{width: 20px; height: 20px;}
     60%{width: 35px; height: 35px;}
     100%{width: 50px; height: 50px;}
 }
-
+*/
 
 
 .cart{
     font-size: 25px;
 }
 
-.cart:hover{
+/* .cart:hover{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 50px;
-    height: 50px;
+    height:50px;
     background-color: #ccebff;
-    animation: cart 0.1s ease-in-out;
-}
+    transition: all 0.2s;
+} */
 
-@keyframes cart{
+ /* @keyframes cart{  
     0%{width: 0; height: 0;}
     30%{width: 20px; height: 20px;}
     60%{width: 35px; height: 35px;}
     100%{width: 50px; height: 50px;}
 }
 
-
+*/
 
 .bottom{
     cursor: pointer;
     justify-content:center;
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 70px;
     font-family: "Roboto", serif;
     font-size: 15px;
     font-weight:450;
-    margin-top: 20px;
+    margin-top: 30px; 
 }
 
-.gift2:hover{
+
+
+
+
+
+
+
+/* .gift2:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 35px;
+    width: 90px;
+    height: 30px;
     background-color:#e9e9e9;
     border-radius: 30px;
-    animation: gf2 0.1s ease-in-out;
-}
+    transition:  0.2s ease-in-out;
+} */
 
 
 
@@ -233,21 +243,21 @@ body{
     font-size: 12px;
 }
 
-.ideas:hover{
+/* .ideas:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 45px;
+    width: 150px;
+    height: 40px;
     background-color:#e9e9e9;
     border-radius: 30px;
-    animation: idea 0.1s ease-in-out; 
-}
+    transition:  0.2s ease-in-out; 
+} */
 
 
 
 
-.h-fav:hover{
+/* .h-fav:hover{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -256,14 +266,14 @@ body{
     height: 45px;
     background-color:#e9e9e9;
     border-radius: 30px;
-    animation: fav 0.1s ease-in-out; 
-}
+    transition:  0.2s ease-in-out; 
+} */
 
 
 
 
 
-.finds:hover{
+/* .finds:hover{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -272,14 +282,14 @@ body{
     height: 35px;
     background-color:#e9e9e9;
     border-radius: 30px;
-    animation: find 0.1s ease-in-out;
+    transition:  0.2s ease-in-out;
 }
+ */
 
 
 
 
-
-.reg:hover{
+/* .reg:hover{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -288,9 +298,9 @@ body{
     height: 35px;
     background-color:#e9e9e9;
     border-radius: 30px;
-    animation: reg 0.1s ease-in-out;
+    transition:  0.2s ease-in-out;
 }
-
+ */
 
 
 
@@ -364,6 +374,16 @@ section.second{
     top: 75px;
     left: 95px;
 }
+
+.button:hover{
+    background-color: #373636;
+    transition: all 0.2s;
+    height:47px;
+    width: 135px;
+    border-radius: 30px;
+    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 
 .min{
     font-family: "Roboto Mono", serif;
@@ -617,7 +637,9 @@ section.fourth{
     width: 300px;
     border-top-left-radius:10px;
     border-top-right-radius: 10px;
+    
 }
+
 
 
 .name-rate{
@@ -763,14 +785,20 @@ section.fifth{
     position: relative;
     right: 90px;
     gap: 25px;
+
+}
+
+.image6 img:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
 }
 
 
 .image6 img.ss{
     width: 299px;
-    height: 310px;
+    height: 300px;
     position: relative;
-    bottom: 6px;
+    bottom: 1px;
 }
 
 
@@ -778,6 +806,7 @@ section.fifth{
     width: 300px;
     height: 300px;
     border-radius: 10px;
+
 }
 
 
@@ -793,6 +822,7 @@ section.fifth{
     display: flex;
     gap: 25px;
     position: relative;
+    top: 10px;
     left: 136px;
 }
 
@@ -802,6 +832,11 @@ section.fifth{
     border-radius: 10px;
 }
 
+.image6-2 img:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
+  
+}
 
 section.seventh{
     margin-top: 90px;
@@ -915,8 +950,8 @@ section.seventh{
 
 
 .button7:hover{
-    width: 160px;
-    height: 50px;
+    width: 155px;
+    height: 46px;
     border-radius: 30px;
     transition:all 0.2s ;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
@@ -951,13 +986,15 @@ section.seventh{
     border-radius: 30px;
     border: 1.5px solid lightgray;
     position: relative;
-    left: 40px
+    left: 40px;
+    font-size: 20px;
     
 }
 
 .sub input::placeholder{
     position: relative;
     left: 10px;
+    
     
 }
 
