@@ -7,16 +7,17 @@ text-decoration: none;
 }
 
 body{
-    background-color:#fff;
+    background-color:white;
     height: 340vh;
     overflow-x: hidden;
     
 
 }
 
+
 .navbar{
     width: 100%;
-    height: 130px;
+    height: 120px;
     background-color: white;
     border-bottom: 1px solid black;
 
@@ -31,7 +32,7 @@ body{
     gap: 45px;
 }
 
-.name{
+.name a{
     color: #f1641e;
     font-size: 40px;
     position:relative;
@@ -40,6 +41,12 @@ body{
 }
 
 .category{
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 35px;
     cursor: pointer;
     font-weight:lighter;
     position: relative;
@@ -49,32 +56,16 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* .category:hover{
+ .category:hover{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 140px;
-    height: 35px;
+   
     background-color:#e9e9e9;
     border-radius: 35px;
-    /* animation: categ 0.1s ease-in-out; 
+   
     transition: all 0.2s;
-} */
+} 
 
-/* @keyframes categ{ 
-    0%{width: 0px; height: 0px;}
-    10%{width: 10px; height: 3px;}
-    20%{width: 15px; height: 6px;}
-    30%{width: 18px; height: 9px;}
-    40%{width: 22px; height: 12px;}
-    50%{width: 80px; height: 16px;}
-    60%{width: 100px; height: 20px;}
-    70%{width: 120px; height: 24px;}
-    80%{width: 125px; height: 29px;}
-    90%{width: 132px; height: 32px;}
-    100%{width:140px ; height: 35px;}
-}*/
+
 .category i{
     position: relative;
     right: 10px;
@@ -102,20 +93,21 @@ body{
 .login{
     font-size: 17px;
     text-transform: capitalize;
-    
-}
-
-/* .login:hover{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     width: 80px;
     height: 30px;
+    
+}
+
+.login:hover{
+    border-radius: 30px;
     background-color: #e9e9e9;
     transition: all 0.2s;
 
-} */
+}
 
 /* @keyframes log{ 
     0%{width: 0px; height: 0px;}
@@ -133,68 +125,69 @@ body{
 */
 
 .heart i{
-    font-size: 28px;
-    color: red;
+    font-size: 21px;
+    object-fit: contain;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 
-/* .heart:hover{
+
+
+.heart i:hover{
+
+    border-radius: 30px;
+    background-color: #BBE8E8;
+    transition: all 0.3s;
+    
+}
+
+
+
+.gift i{
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    background-color: #ccebff;
-    transition:  0.2s all;
-    
-} */
-
-/* @keyframes guli{ 
-    0%{width: 0; height: 0;}
-    30%{width: 20px; height: 20px;}
-    60%{width: 35px; height: 35px;}
-    100%{width: 50px; height: 50px;}
-}*/
+}
 
 .gift{
-    font-size: 25px;
+
+    font-size: 18px;
 }
 
-/* .gift:hover{
+.gift i:hover{
+    
+    border-radius: 30px;
+    background-color: #BBE8E8;
+    transition: all 0.3s;
+}
+
+
+.cart i{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    background-color: #ccebff;
-    transition:  0.2s all;
-} */
-
-/* @keyframes gf{ 
-    0%{width: 0; height: 0;}
-    30%{width: 20px; height: 20px;}
-    60%{width: 35px; height: 35px;}
-    100%{width: 50px; height: 50px;}
-}
-*/
-
-
-.cart{
-    font-size: 25px;
+    font-size: 18px;
+    color: black;
 }
 
-/* .cart:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 50px;
-    height:50px;
-    background-color: #ccebff;
-    transition: all 0.2s;
-} */
+ .cart:hover{
+    border-radius: 30px;
+    background-color: #BBE8E8;
+    transition: all 0.3s;
+} 
 
  /* @keyframes cart{  
     0%{width: 0; height: 0;}
@@ -214,94 +207,118 @@ body{
     font-family: "Roboto", serif;
     font-size: 15px;
     font-weight:450;
-    margin-top: 30px; 
+    margin-top: 15px; 
 }
 
 
-
-
-
-
-
-
-/* .gift2:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 30px;
-    background-color:#e9e9e9;
-    border-radius: 30px;
-    transition:  0.2s ease-in-out;
-} */
-
-
-
-
-.ideas{
-    text-align: center;
-    font-size: 12px;
+.gift2 a, .gift2 i{
+    color:black;
 }
 
-/* .ideas:hover{
+.gift2 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 150px;
     height: 40px;
-    background-color:#e9e9e9;
     border-radius: 30px;
-    transition:  0.2s ease-in-out; 
-} */
+    color: black;
+
+}
+
+
+
+ .gift2:hover{
+    border-radius: 30px;
+    background-color: #e9e9e9;
+    transition: all 0.3s;
+} 
 
 
 
 
-/* .h-fav:hover{
+.ideas a{
     text-align: center;
+    font-size: 15px;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 45px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.ideas:hover{
+    background-color:#e9e9e9;
+    transition:  0.2s ease-in-out; 
+    border-radius: 30px;
+
+}   
+
+
+
+
+
+ .h-fav:hover{
+    
     background-color:#e9e9e9;
     border-radius: 30px;
     transition:  0.2s ease-in-out; 
-} */
+} 
 
 
 
 
 
-/* .finds:hover{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 35px;
+ .finds:hover{
+   
+    background-color:#e9e9e9;
+    border-radius: 30px;
+    transition:  0.2s all;
+}
+ 
+
+
+
+
+.reg:hover{
     background-color:#e9e9e9;
     border-radius: 30px;
     transition:  0.2s ease-in-out;
 }
- */
+ 
 
-
-
-
-/* .reg:hover{
-    text-align: center;
+ .h-fav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
-    height: 35px;
-    background-color:#e9e9e9;
+    width: 150px;
+    height: 40px;
     border-radius: 30px;
-    transition:  0.2s ease-in-out;
-}
- */
+    color: black;
 
+ }
+
+ .reg a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    color: black;
+ }
+
+ .finds a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px; 
+    color: black;
+ }
 
 
 
