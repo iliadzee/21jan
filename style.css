@@ -90,7 +90,8 @@ body{
     right: 45px;
 }
 
-.login{
+.login a{
+    color: black;
     font-size: 17px;
     text-transform: capitalize;
     display: flex;
